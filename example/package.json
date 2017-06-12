@@ -1,6 +1,6 @@
 {
-  "name": "react-scrollable-anchor-example",
-  "description": "Example for react-scrollable-anchor",
+  "name": "easy-react-scrollable-anchor-example",
+  "description": "Example for easy-react-scrollable-anchor",
   "scripts": {
     "start": "webpack-dev-server --env.dev",
     "build": "./node_modules/webpack/bin/webpack.js",

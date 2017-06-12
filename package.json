@@ -1,7 +1,7 @@
 {
-  "name": "react-scrollable-anchor",
-  "version": "0.4.3",
-  "description": "Provide smooth scrolling anchors in React.",
+  "name": "easy-react-scrollable-anchor",
+  "version": "0.0.1",
+  "description": "Refactor of library providing smooth scrolling anchors in React.",
   "main": "lib/index.js",
   "files": [
     "lib",
@@ -32,16 +32,16 @@
     "site",
     "jump"
   ],
-  "author": "Gabe G'Sell <gabergg@gmail.com>",
+  "author": "Igor Pavlov <gophan1992@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gabergg/react-scrollable-anchor.git"
+    "url": "https://github.com/beastia/easy-react-scrollable-anchor.git"
   },
   "bugs": {
-    "url": "https://github.com/gabergg/react-scrollable-anchor/issues"
+    "url": "https://github.com/beastia/easy-react-scrollable-anchor/issues"
   },
-  "homepage": "https://github.com/gabergg/react-scrollable-anchor",
+  "homepage": "https://github.com/beastia/easy-react-scrollable-anchor",
   "dependencies": {
     "jump.js": "1.0.1"
   },

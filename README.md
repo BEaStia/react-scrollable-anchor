@@ -1,7 +1,7 @@
-react-scrollable-anchor
+easy-react-scrollable-anchor
 =====================
-
-[![npm version](https://img.shields.io/npm/v/react-scrollable-anchor.svg?style=flat-square)](https://www.npmjs.com/package/react-scrollable-anchor)
+This repo is based on repo of Gabe G'Sell <gabergg@gmail.com>.
+[![npm version](https://img.shields.io/npm/v/easy-react-scrollable-anchor.svg?style=flat-square)](https://www.npmjs.com/package/easy-react-scrollable-anchor)
 
 Lightweight library for smooth scrolling anchors in React, tied to URL hash.
 
@@ -11,7 +11,7 @@ Lightweight library for smooth scrolling anchors in React, tied to URL hash.
 * Option to record history on hash changes
 
 ```js
-npm install --save react-scrollable-anchor
+npm install --save easy-react-scrollable-anchor
 ```
 
 ## Examples
@@ -29,7 +29,7 @@ Use the `ScrollableAnchor` tag to wrap any React element, making it a scrollable
 
 ```js
 import React, { Component } from 'react'
-import ScrollableAnchor from 'react-scrollable-anchor'
+import ScrollableAnchor from 'easy-react-scrollable-anchor'
 
 export default class Page extends Component {
   render() {
@@ -56,7 +56,7 @@ Access configureAnchors to customize scrolling and anchors.
 ##### Offset all scrollable anchors by a fixed amount
 
 ```js
-import { configureAnchors } from 'react-scrollable-anchor'
+import { configureAnchors } from 'easy-react-scrollable-anchor'
 
 // Offset all anchors by -60 to account for a fixed header
 // and scroll more quickly than the default 400ms
@@ -78,7 +78,7 @@ A small toolkit of scrolling utilies for use with anchors
 ##### Jump to top of page in a way that plays nicely with scrollable anchors
 
 ```js
-import { goToTop } from 'react-scrollable-anchor'
+import { goToTop } from 'easy-react-scrollable-anchor'
 
 // scroll to top of the page
 goToTop()
@@ -87,7 +87,7 @@ goToTop()
 ##### Scroll to any scrollable anchor, with option to record history
 
 ```js
-import { goToAnchor } from 'react-scrollable-anchor'
+import { goToAnchor } from 'easy-react-scrollable-anchor'
 
 // scroll to #section1 without saving that hash update in history
 goToAnchor('section1')
@@ -100,7 +100,7 @@ goToAnchor('section1', true)
 ##### Clear the URL hash without affecting scroll location at all
 
 ```js
-import { removeHash } from 'react-scrollable-anchor'
+import { removeHash } from 'easy-react-scrollable-anchor'
 
 // clear URL hash
 removeHash()
@@ -108,7 +108,7 @@ removeHash()
 
 ## Issues and feature requests
 
-Please open issues on [Github](https://github.com/gabergg/react-scrollable-anchor/issues). Issues are easier to address if you include context and code samples.
+Please open issues on [Github](https://github.com/beastia/easy-react-scrollable-anchor/issues). Issues are easier to address if you include context and code samples.
 
 ## Contributing
 
