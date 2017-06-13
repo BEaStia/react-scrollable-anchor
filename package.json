@@ -1,6 +1,6 @@
 {
   "name": "easy-react-scrollable-anchor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Refactor of library providing smooth scrolling anchors in React.",
   "main": "lib/index.js",
   "files": [
@@ -43,9 +43,7 @@
   },
   "homepage": "https://github.com/beastia/easy-react-scrollable-anchor",
   "dependencies": {
-    "jump.js": "1.0.1"
-  },
-  "peerDependencies": {
+    "jump.js": "1.0.1",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
